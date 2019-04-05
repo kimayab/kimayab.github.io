@@ -451,51 +451,6 @@ var BagsComponent = /** @class */ (function () {
             }
         ];
     };
-    // navigate(currentItem) {
-    //   if (currentItem.length > 1)
-    //     this.showProductList = !this.showProductList;
-    //   else {
-    //     switch (currentItem[0]) {
-    //       case 'Home': {
-    //         this.router.navigate(['home']);
-    //         break;
-    //       }
-    //       case 'About Us': {
-    //         this.router.navigate(['about']);
-    //         break;
-    //       }
-    //       case 'Wallets': {
-    //         this.router.navigate(['wallets']);
-    //         break;
-    //       }
-    //       case 'Bags': {
-    //         this.router.navigate(['bags']);
-    //         break;
-    //       }
-    //       case 'Accessories': {
-    //         this.router.navigate(['accessories']);
-    //         break;
-    //       }
-    //       case 'Bespoke': {
-    //         this.router.navigate(['bespoke']);
-    //         break;
-    //       }
-    //       case 'Contact Us': {
-    //         this.router.navigate(['contactus']);
-    //         break;
-    //       }
-    //       case 'Infrastructure': {
-    //         this.router.navigate(['infrastructure']);
-    //         break;
-    //       }
-    //       case '': {
-    //         this.router.navigate(['home']);
-    //         break;
-    //       }
-    //       default: console.log("unknown", currentItem);
-    //     }
-    //   }
-    // }
     BagsComponent.prototype.showHideRightPanel = function () {
         this.showHideRightPanelFlag = !this.showHideRightPanelFlag;
     };
@@ -803,19 +758,51 @@ var data = {
         ],
         "large_images": [
             {
-                "url": "../assets/static/stock1.jpg",
-                "description": "",
+                "small": "../assets/static/stock1.jpg",
+                "medium": "../assets/static/stock1.jpg",
+                "big": "../assets/static/stock1.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
                 "title": "image1"
             },
             {
-                "url": "../assets/static/stock2.jpg",
-                "description": "",
+                "small": "../assets/static/stock2.jpg",
+                "medium": "../assets/static/stock2.jpg",
+                "big": "../assets/static/stock2.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
                 "title": "image2"
             },
             {
-                "url": "../assets/static/stock3.jpg",
-                "description": "",
+                "small": "../assets/static/stock3.jpg",
+                "medium": "../assets/static/stock3.jpg",
+                "big": "../assets/static/stock3.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
                 "title": "image3"
+            },
+            {
+                "small": "../assets/static/stock4.jpg",
+                "medium": "../assets/static/stock4.jpg",
+                "big": "../assets/static/stock4.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
+                "title": "image4"
+            },
+            {
+                "small": "../assets/static/stock5.jpg",
+                "medium": "../assets/static/stock5.jpg",
+                "big": "../assets/static/stock5.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
+                "title": "image5"
+            }, {
+                "small": "../assets/static/stock6.jpg",
+                "medium": "../assets/static/stock6.jpg",
+                "big": "../assets/static/stock6.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
+                "title": "image6"
+            }, {
+                "small": "../assets/static/stock7.jpg",
+                "medium": "../assets/static/stock7.jpg",
+                "big": "../assets/static/stock7.jpg",
+                "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
+                "title": "image7"
             }
         ],
         "display_images": [
@@ -934,7 +921,7 @@ var data = {
                     },
                     {
                         "small": "../assets/static/bags/20205/20205-4.jpg",
-                        "medium": "../assets/static/bags/20520/20205-4.jpg",
+                        "medium": "../assets/static/bags/20205/20205-4.jpg",
                         "big": "../assets/static/bags/20205/20205-4.jpg",
                         "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.. Duis a dui sapien. Praesent efficitur consectetur mi sed maximus. Pellentesque in nunc dignissim, imperdiet mi quiscursus massa. Proin elementum molestie diam, non congue tortor. Donec ac dapibus nisi. Nunc tincidunt maximus loremac hendrerit. Donec sit amet tristique tellus. Integer vehicula dapibus accumsan.",
                         "title": "image5"
@@ -1469,7 +1456,7 @@ module.exports = "<div class=\"container\">\n  <div class=\"top\">\n    <div cla
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container {\n  margin: 0; }\n  .container .top {\n    background: white;\n    position: fixed;\n    z-index: 5000;\n    width: 100%; }\n  .container .top .top-header {\n      border-bottom: 1px solid black;\n      box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.8); }\n  .container .top .top-header .top-header-left {\n        padding: 20px;\n        display: inline-block; }\n  .container .top .top-header .top-header-right-panel {\n        box-sizing: border-box;\n        padding: 0 20px;\n        display: inline-block;\n        float: right; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item {\n          padding: 20px 20px 15px;\n          display: none;\n          cursor: pointer;\n          box-sizing: border-box;\n          position: relative; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item:hover {\n            border-bottom: 5px solid blue; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .icon {\n            margin-left: 7px; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .icon > i {\n              vertical-align: bottom;\n              font-weight: 600; }\n  @media screen and (min-width: 1025px) {\n            .container .top .top-header .top-header-right-panel .top-header-right-panel-item {\n              display: inline-block; } }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .product-list-container {\n            position: absolute;\n            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);\n            background: #f4f4f4;\n            z-index: 1;\n            padding: 10px 15px;\n            width: 100%;\n            top: 46px;\n            border-radius: 1px 1px 3px 3px; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .product-list-container .product-list {\n              padding: 6px;\n              margin: 4px 0;\n              color: #666666;\n              background-color: white;\n              box-shadow: 1px 1px 2px 0px rgba(150, 150, 150, 0.45); }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .product-list-container .product-list:hover {\n                color: black;\n                box-shadow: 1px 1px 6px 0px rgba(150, 150, 150, 0.75); }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen {\n          display: none;\n          position: relative;\n          cursor: pointer;\n          padding-top: 20px; }\n  @media screen and (max-width: 1024px) {\n            .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen {\n              display: block; } }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container {\n            position: absolute;\n            right: 0px;\n            box-shadow: -2px -2px 5px -1px rgba(163, 163, 163, 0.65);\n            text-align: right;\n            background: #f8f8f8;\n            padding: 10px 0;\n            border-radius: 3px;\n            font-size: 14px;\n            width: 160px;\n            box-sizing: border-box;\n            cursor: default; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container .top-header-right-panel-item-collapsed {\n              padding: 2px 10px;\n              background-color: #ffffff;\n              margin: 6px 0;\n              border-radius: 1px;\n              cursor: pointer; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container .top-header-right-panel-item-collapsed:hover {\n                font-weight: 600; }\n  .container .top .top-header .top-header-right-panel .active {\n          background: black;\n          color: white;\n          border-bottom: 5px solid blue; }\n"
+module.exports = ".container {\n  margin: 0; }\n  .container .top {\n    background: white;\n    position: fixed;\n    z-index: 5000;\n    width: 100%; }\n  .container .top .top-header {\n      border-bottom: 1px solid black;\n      box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.8); }\n  .container .top .top-header .top-header-left {\n        padding: 20px;\n        display: inline-block; }\n  .container .top .top-header .top-header-right-panel {\n        box-sizing: border-box;\n        padding: 0 20px;\n        display: inline-block; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item {\n          padding: 20px 20px 15px;\n          display: none;\n          cursor: pointer;\n          box-sizing: border-box;\n          position: relative; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item:hover {\n            border-bottom: 5px solid blue; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .icon {\n            margin-left: 7px; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .icon > i {\n              vertical-align: bottom;\n              font-weight: 600; }\n  @media screen and (min-width: 1025px) {\n            .container .top .top-header .top-header-right-panel .top-header-right-panel-item {\n              display: inline-block; } }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .product-list-container {\n            position: absolute;\n            box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);\n            background: #f4f4f4;\n            z-index: 1;\n            padding: 10px 15px;\n            width: 100%;\n            top: 46px;\n            border-radius: 1px 1px 3px 3px; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .product-list-container .product-list {\n              padding: 6px;\n              margin: 4px 0;\n              color: #666666;\n              background-color: white;\n              box-shadow: 1px 1px 2px 0px rgba(150, 150, 150, 0.45); }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-item .product-list-container .product-list:hover {\n                color: black;\n                box-shadow: 1px 1px 6px 0px rgba(150, 150, 150, 0.75); }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen {\n          display: none;\n          position: relative;\n          cursor: pointer;\n          padding-top: 20px; }\n  @media screen and (max-width: 1024px) {\n            .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen {\n              display: block; } }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container {\n            position: absolute;\n            right: 0px;\n            box-shadow: -2px -2px 5px -1px rgba(163, 163, 163, 0.65);\n            text-align: right;\n            background: #f8f8f8;\n            padding: 10px 0;\n            border-radius: 3px;\n            font-size: 14px;\n            width: 160px;\n            box-sizing: border-box;\n            cursor: default; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container .top-header-right-panel-item-collapsed {\n              padding: 2px 10px;\n              margin: 6px 0;\n              border-radius: 1px;\n              cursor: pointer; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container .top-header-right-panel-item-collapsed:hover {\n                font-weight: 600; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container .top-header-right-panel-item-collapsed .product-list-container {\n                margin: 4px 8px;\n                font-weight: 400;\n                color: #666666; }\n  .container .top .top-header .top-header-right-panel .top-header-right-panel-small-screen .top-header-right-panel-small-screen-item-container .top-header-right-panel-item-collapsed .product-list-container .product-list {\n                  cursor: pointer; }\n  .container .top .top-header .top-header-right-panel .active {\n          background: black;\n          color: white;\n          border-bottom: 5px solid blue; }\n"
 
 /***/ }),
 
@@ -1587,7 +1574,7 @@ var HeaderComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <header [currentPage]=\"currentPage\"></header>\n  <div class=\"large-image-container\" *ngIf=\"imageObjects.large_images\">\n    <div class=\"image-container\">\n      <span class=\"icon previous\" (click)=\"browseImages(-1)\">\n          <i class=\"fas fa-angle-left\"></i>\n      </span>\n      <img src=\"{{imageObjects.large_images[0].url}}\" alt=\"{{imageObjects.large_images[0].title}}\">\n      <div class=\"image-slider-panel\">\n        <div class=\"panel-image-container\" *ngIf=\"imageObjects.thumbnails\">\n          <div class=\"image\" *ngFor=\"let eachImage of imageObjects.thumbnails; index as i\" (click)=\"browseImages(i)\">\n            <img src=\"{{eachImage.url}}\" alt=\"{{eachImage.title}}\">\n          </div>\n        </div>\n      </div>\n      <span class=\"icon next\" (click)=\"browseImages(-2)\">\n          <i class=\"fas fa-angle-right\"></i>\n      </span>\n    </div>\n\n  </div>\n\n  <ng-container *ngFor=\"let eachImage of imageObjects.display_images; index as i\">\n    <div class=\"description-panel-container\" *ngIf=\"i%2 == 0\">\n      <div class=\"image-container\">\n        <img src=\"{{eachImage.url}}\" alt=\"{{eachImage.title}}\">\n      </div>\n      <div class=\"description-text-container\">\n        <div class=\"title\">\n          {{eachImage.title}}\n        </div>\n        <div class=\"text\">\n          {{eachImage.description}}\n        </div>\n      </div>\n    </div>\n    <div class=\"detail-panel-container\" *ngIf=\"i%2 != 0\">\n      <div class=\"description-text-container\">\n        <div class=\"title\">\n          {{eachImage.title}}\n        </div>\n        <div class=\"text\">\n          {{eachImage.description}}\n        </div>\n      </div>\n      <div class=\"image-container\">\n        <img src=\"{{eachImage.url}}\" alt=\"{{eachImage.title}}\">\n      </div>\n    </div>\n  </ng-container>\n</div>"
+module.exports = "<div class=\"container\">\n  <header [currentPage]=\"currentPage\"></header>\n  <!-- <div class=\"large-image-container\" *ngIf=\"imageObjects.large_images\">\n    <div class=\"image-container\">\n      <span class=\"icon previous\" (click)=\"browseImages(-1)\">\n          <i class=\"fas fa-angle-left\"></i>\n      </span>\n      <img src=\"{{imageObjects.large_images[0].url}}\" alt=\"{{imageObjects.large_images[0].title}}\">\n      <div class=\"image-slider-panel\">\n        <div class=\"panel-image-container\" *ngIf=\"imageObjects.thumbnails\">\n          <div class=\"image\" *ngFor=\"let eachImage of imageObjects.thumbnails; index as i\" (click)=\"browseImages(i)\">\n            <img src=\"{{eachImage.url}}\" alt=\"{{eachImage.title}}\">\n          </div>\n        </div>\n      </div>\n      <span class=\"icon next\" (click)=\"browseImages(-2)\">\n          <i class=\"fas fa-angle-right\"></i>\n      </span>\n    </div>\n\n  </div> -->\n\n  <div class=\"large-image-container\" *ngIf=\"galleryOptions && imageObjects.large_images\">\n    <ngx-gallery [options]=\"galleryOptions\" [images]=\"imageObjects.large_images\"></ngx-gallery>\n</div>\n\n  <ng-container *ngFor=\"let eachImage of imageObjects.display_images; index as i\">\n    <div class=\"description-panel-container\" *ngIf=\"i%2 == 0\">\n      <div class=\"image-container\">\n        <img src=\"{{eachImage.url}}\" alt=\"{{eachImage.title}}\">\n      </div>\n      <div class=\"description-text-container\">\n        <div class=\"title\">\n          {{eachImage.title}}\n        </div>\n        <div class=\"text\">\n          {{eachImage.description}}\n        </div>\n      </div>\n    </div>\n    <div class=\"detail-panel-container\" *ngIf=\"i%2 != 0\">\n      <div class=\"description-text-container\">\n        <div class=\"title\">\n          {{eachImage.title}}\n        </div>\n        <div class=\"text\">\n          {{eachImage.description}}\n        </div>\n      </div>\n      <div class=\"image-container\">\n        <img src=\"{{eachImage.url}}\" alt=\"{{eachImage.title}}\">\n      </div>\n    </div>\n  </ng-container>\n</div>"
 
 /***/ }),
 
@@ -1615,6 +1602,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../data */ "./src/app/data.ts");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var ngx_gallery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ngx-gallery */ "./node_modules/ngx-gallery/bundles/ngx-gallery.umd.js");
+/* harmony import */ var ngx_gallery__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(ngx_gallery__WEBPACK_IMPORTED_MODULE_3__);
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1624,6 +1613,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1638,6 +1628,32 @@ var HomeComponent = /** @class */ (function () {
         this.homepageData = _data__WEBPACK_IMPORTED_MODULE_1__["data"];
         this.linkList = this.homepageData.page_list;
         this.imageObjects = this.homepageData.images;
+        this.galleryOptions = [
+            {
+                width: '100%',
+                height: '100%',
+                fullWidth: true,
+                imageAnimation: ngx_gallery__WEBPACK_IMPORTED_MODULE_3__["NgxGalleryAnimation"].Slide,
+                imageSize: ngx_gallery__WEBPACK_IMPORTED_MODULE_3__["NgxGalleryImageSize"].Contain,
+                lazyLoading: false,
+                imageAutoPlay: true,
+                imageAutoPlayPauseOnHover: true,
+                imageBullets: true,
+                thumbnails: false
+            },
+            // max-width 800
+            {
+                breakpoint: 800,
+                width: '100%',
+                height: '600px',
+                imagePercent: 80
+            },
+            // max-width 400
+            {
+                breakpoint: 400,
+                preview: false
+            }
+        ];
     };
     HomeComponent.prototype.navigate = function (currentItem) {
         if (currentItem.length > 1)
